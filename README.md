@@ -1,8 +1,7 @@
 # Compilo
 
-A simple code runner with an AI review panel. The frontend provides a code editor and output pane, while the backend compiles/runs code via JDoodle and sends code to Google Generative AI for short reviews.
+A simple code editor with an AI review panel. The frontend provides a code editor and output pane, while the backend compiles/runs code via JDoodle and sends code to Google Generative AI for short reviews.
 
-Repository: https://github.com/NitinS1ngh/Compilo.git
 
 ## Features
 - Run code in multiple languages (C, C++, Java, Python, JavaScript, Go, C#, PHP, Ruby, Kotlin, Swift, Rust)
