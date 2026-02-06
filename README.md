@@ -22,14 +22,14 @@ Repository: https://github.com/NitinS1ngh/Compilo.git
 
 ## Setup
 
-### 0) Clone
+### 1) Clone
 
 ```bash
 git clone https://github.com/NitinS1ngh/Compilo.git
 cd Compilo
 ```
 
-### 1) Backend
+### 2) Backend
 
 ```bash
 cd backend
@@ -53,7 +53,7 @@ Start the backend:
 npm start
 ```
 
-### 2) Frontend
+### 3) Frontend
 
 ```bash
 cd frontend
