@@ -43,7 +43,7 @@ int main() {
   const handleRunCode = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:3000/compile', { code, input, language });
+      const response = await axios.post('https://compilo.onrender.com/compile', { code, input, language });
       setOutput(response.data.output);
     } catch (error) {
       console.error('Error running code:', error);
@@ -55,7 +55,7 @@ int main() {
 
   const handleAskAI = async () => {
     try {
-      const response = await axios.post('http://localhost:3000/ask-ai', { code, language });
+      const response = await axios.post('https://compilo.onrender.com/ask-ai', { code, language });
       if (response.data?.status && response.data.status !== 'success') {
         return response.data.message || 'Failed to get suggestions';
       }
