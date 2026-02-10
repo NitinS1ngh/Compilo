@@ -2,6 +2,9 @@
 
 A simple code editor with an AI review panel. The frontend provides a code editor and output pane, while the backend compiles/runs code via JDoodle and sends code to Google Generative AI for short reviews.
 
+## 🔗 Live
+- Frontend: [https://compilo-sand.vercel.app](https://compilo-sand.vercel.app)
+- Backend API: [https://compilo.onrender.com](https://compilo.onrender.com)
 
 ## Features
 - Run code in multiple languages (C, C++, Java, Python, JavaScript, Go, C#, PHP, Ruby, Kotlin, Swift, Rust)
