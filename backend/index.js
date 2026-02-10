@@ -5,6 +5,9 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 require('dotenv').config();
 
 const app = express();
+app.get('/', (req, res) => {
+  res.send('Compilo backend is running 🚀');
+});
 const PORT = process.env.PORT || 5000;
 
 
